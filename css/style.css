@@ -1,6 +1,6 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 940px) {
   :root {
-    --layout-max-width: 1200px;
+    --layout-max-width: 1400px;
     --layout-padding: 20px;
     --content-large-padding: 40px 38px 46px;
     --content-small-padding: 20px 19px 23px;
@@ -491,7 +491,7 @@ html.show-mobile-nav .navbar-list {
 .navbar-btn div:nth-child(3):before {
   transform: translateY(8px);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 940px) {
   .navbar {
     height: 54px;
   }
@@ -673,7 +673,13 @@ html.show-mobile-nav .navbar-list {
 .social-icons svg.icon:hover {
   fill: var(--theme-text-stress);
 }
-@media screen and (min-width: 768px) {
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+@media screen and (min-width: 940px) {
   .social-icons a {
     width: 45px;
     height: 45px;
@@ -1165,7 +1171,7 @@ html.show-mobile-nav .navbar-list {
   flex-wrap: wrap;
   justify-content: center;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 940px) {
   .content-container.post-container .article-info .page-link-container .link-item {
     max-width: 100%;
     min-width: 33.333%;
@@ -1313,7 +1319,7 @@ html.show-mobile-nav .navbar-list {
   background-color: var(--theme-bg-primary);
   box-shadow: var(--soft-shadow) var(--soft-shadow) calc(var(--soft-shadow) * 2) var(--theme-bg-shadow), calc(-1 * var(--soft-shadow)) calc(-1 * var(--soft-shadow)) calc(var(--soft-shadow) * 2) var(--theme-bg-high);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 940px) {
   .content-container.post-container .article-info {
     flex: 0 1 calc(100% - 360px);
     min-width: calc(100% - 360px);
